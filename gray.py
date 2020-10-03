@@ -11,7 +11,5 @@ for index, file in enumerate(files):
     
     lab = rgb2lab(test)    
     L = lab[:,:,0]
-    A = lab[:,:,1]
-    B = lab[:,:,2]
     
     imsave('C:/Users/Ripon/Desktop/Spider/images/colorization/test/gry/ed/gray'+str(index+1)+".jpg", L)
